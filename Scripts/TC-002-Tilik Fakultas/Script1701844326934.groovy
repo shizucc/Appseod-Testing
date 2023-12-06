@@ -19,17 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('D:\\Appsoed_Pro\\debug\\Appsoed_debug.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Masuk Sebagai Tamu'), 0)
+Mobile.tap(findTestObject('Object Repository/Tilik Fakutas/android.widget.Button'), 0)
 
-not_run: Mobile.verifyElementVisible(findTestObject('null'), 0)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Tilik Fakutas/android.widget.ScrollView'), 0)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.tap(findTestObject('Object Repository/Tilik Fakutas/android.view.View'), 0)
 
-not_run: Mobile.verifyElementVisible(findTestObject(''), 0)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Tilik Fakutas/android.view.View (1)'), 0)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.swipe(0, 500, 0, 0)
 
-not_run: Mobile.verifyElementVisible(findTestObject(''), 0)
+Mobile.tap(findTestObject('Object Repository/Tilik Fakutas/android.widget.ImageView'), 0)
+
+Mobile.waitForElementPresent(findTestObject('Object Repository/Tilik Fakutas/android.view.View (2)'), 0)
 
 Mobile.closeApplication()
 

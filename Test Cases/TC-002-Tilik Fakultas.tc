@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC-000 Masuk Sebagai Tamu</name>
+   <name>TC-002-Tilik Fakultas</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e5756f2b-f118-41bb-9eb4-5d2ed700e16e</testCaseGuid>
+   <testCaseGuid>c5fc2d25-9f41-45b1-b243-c77428269090</testCaseGuid>
 </TestCaseEntity>
